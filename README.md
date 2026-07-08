@@ -28,15 +28,21 @@ table{
 width: 100%;
 border-collapse: collapse;
 margin-top: 20px;
-
-formulario display:grid;
-grid-template-columns: 2fr repeat (4,1 fr) auto; gap: 10px;
-margin-bottom:25px;
 }
-inputt
+table, th, td{
+border: 1px solid #ddd;
+}
+th, td{
 padding: 10px;
-border: 1px solid #ccc; border-radius:5px;
+text-align: left;
 }
+th{
+background-color: #f4f4f4;
+}
+.from-group{
+margin: 15px 0;
+}
+.from
 button‹ background:#007bff;
 color: white;
 border none;
